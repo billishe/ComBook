@@ -1,0 +1,244 @@
+
+
+
+body{
+	font-family: cursive;
+	background-color: #eee;
+}
+.navig{
+	position:fixed;
+	right:0;
+	left:0;
+	top:0;
+	border-width: 0 0 1px;
+	border: 1px solid transparent;
+	border-color: #e7e7e7;
+	background-color:  rgba(16, 22, 54, 1);
+	padding: 20px;
+	box-shadow:2px 2px 3px 3px rgba(0,0,0,0.3);
+	z-index: 1;
+}
+.navig > a > img{
+	margin-right:10px;
+
+}
+.navig > a{
+	font-family:cursive;
+	font-size: 30px;
+	padding: 0px;
+	color: white;
+	text-align:center;
+	margin-bottom: 0px;
+	display: inline-block;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.tabs{
+	list-style: none;
+	margin-right: 100px;
+	display:inline;
+}
+
+.navig > a:hover{
+		color: #00FF7F;
+		transition:2s;
+		background:transparent;
+}
+.navig >.tabs>li> a:hover{
+		color:#00FF7F;
+		transition:2s;
+		background:transparent;
+}
+.tabs > li{
+	position: relative;
+	float: right;
+	display: inline-block;
+	min-width:20px;
+	margin-right: 50px;
+	color: white;
+
+}
+.tabs > li a{
+	color: white;
+	text-decoration: none;
+}
+.gallery{
+	width:100%;
+	height: 600px;
+    margin-left: -10px;
+    background:url("gallery1.jpeg");	
+    background-position:center;
+    background-size:cover;
+    margin-top:70px;
+    text-align: center;
+    padding:10px;
+}
+.popup:hover{
+	background-color: blue;
+	transition: background-color 25s;
+}
+.popup
+{
+    color: rgba(16, 22, 100, 1);
+    font-size:4.5em;
+    line-height: 80px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+	font-size: 80px;
+}
+.gallery > a{
+	background-color: rgba(16, 22, 54, 1);
+	color:white;
+	padding:15px;
+	border-radius: 20px;
+}
+.login{
+	width:100%;
+	height:100%;
+	padding:10px;
+	margin-left: -10px;
+	background: white;
+}
+form{
+	max-width: 300px;
+	padding:10px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: rgba(16, 22, 54, 1);
+	border-radius: 20px;
+}
+form > div >a{
+	color:white;
+}
+td{
+	max-width: 500px;
+}
+form:hover{
+	border-color: #AAA;
+	background-color: rgba(16, 22, 54, 1);
+	color:white;
+	transition: 2s;
+}
+.formContent{
+	text-align: center;
+
+}
+a{    
+	color: rgba(16, 22, 54, 1);
+	text-decoration: none;
+}
+a:hover{
+	color:#00FF7F;
+	transition:2s;
+}
+.tips{
+	float: left;
+}
+footer{
+	width:100%;
+	background-color:  rgba(16, 22, 54, 1);
+	text-align:center;
+	padding:10px;
+	margin-top: 70px;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	color:white;
+	position: relative;
+	border-top: 1px solid transparent;
+	border-color: #e7e7e7;
+		box-shadow:2px 2px 3px 3px rgba(0,0,0,0.3);
+}
+footer > div>a{
+		color:#00FF7F;
+}
+footer > div>a:hover{
+	text-decoration: underline;
+}
+.MyButns{
+	background-color: rgba(16, 22, 54, 1);
+	color:white;
+	width:100px;
+	border-color: white;
+	border:1px solid;
+	border-radius: 10px;
+	height: 30px;
+}
+.MyButns:hover{
+	color: #00FF7F;
+	transition: 3s;
+}
+.error{
+	padding:5px;
+	color:red;
+	font-style: italic;
+}
+.main{
+	margin-top: 100px;
+	width:70%;
+	min-height:350px;
+	margin-left:350px;
+}
+.forgot{
+	margin-top: 100px;
+	background-color: lightblue;
+	border-top:solid black;
+	padding: 10px;
+}
+#form2{
+	margin: 40px;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -175px 0 0 -175px;
+  border: 16px solid #;
+  border-radius: 50%;
+  border-top: 16px solid rgba(16, 22, 54, 1);
+  width: 280px;
+  height: 280px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate{
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+.alert {
+    padding: 20px;
+    background-color: lightblue;
+    color: blue;
+    width:50%;
+}
+.alert:hover{
+    font-family: cursive;
+    width:90%;
+    transition: 3s;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: blue;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,133 @@
+section{
+	position: fixed;
+	top:90px;
+	left: 0px;
+	width:20%;
+	background-color: white;
+	border-right:1px solid blue;
+	text-align: right;
+	padding:10px;
+	z-index: 0;
+}
+section > a:hover{
+	width:100%;
+	background-color: lightgreen;
+	color: black;
+}
+#welcome{
+	position: fixed;
+	top: 60px;
+	width:99%;
+	right:1px;
+	padding-right: 10px;
+	background-color: #523123;
+	color:yellow;
+	text-align:right;
+}
+#response{
+	width: 80%;
+	border:2px solid rgba(16, 22, 54, 1);
+	border-radius: 5px;
+	padding: 10px;
+	display: inline;
+}
+#chatform1{
+	border:0px;
+}
+#chatform{
+	position: fixed;
+	bottom:0px;
+	left:25%;
+	border:0px;
+	z-index: 2000;
+}
+#b{
+height:43px;
+top:10px;
+}
+#notif{
+	min-height: 500px; 
+	background-color: #777;
+	color:white;
+	padding: 10px;
+}
+#chat{
+	min-height: 500px;
+	background-color: lightblue;
+	padding: 10px;
+}
+#forum{
+	min-height: 500px; 
+	background-color: #777;
+	color:white;
+	padding: 10px;
+}
+#share{
+	min-height: 500px;
+	background-color: lightblue;
+	padding: 10px;
+}
+#myacc{
+	min-height: 500px;
+	background-color: #777;
+	color:white;
+	padding: 10px;
+}
+#Delete{
+	min-height: 500px;
+	background-color: lightblue;
+	padding: 10px;
+}	
+#Add{
+	min-height: 500px;
+	background-color: #777;
+	color:white;
+	padding: 10px;
+}
+#task{
+	min-height: 500px;
+	background-color: lightblue;
+	padding: 10px;
+}	
+#notify{
+	min-height: 500px;
+	background-color: #777;
+	color:white;
+	padding: 10px;
+}
+.cht{
+	color:white;
+	background-color:grey;
+	width:400px;
+}
+.rsp{
+	color:yellow; 
+	background-color:grey;
+	width:400px;
+}
+.list{
+	background-color: rgba(16, 22, 54, 1);
+	color:blue;
+	border:0px;
+	border-top:1px solid black;;
+	width:150%;
+	height:135%;
+	cursor:pointer;
+}
+.list:hover{
+	background-color: white;
+}
+#chat > table > tr{
+	margin: 0px;
+}
+#endch2{
+	background-color: rgba(255, 0, 0, 10);
+	width:50%;
+	font-size: 15px;
+	padding: 10px;
+}
+.info{
+	color:white;
+	background-color:blue;
+	padding:10px;
+}
